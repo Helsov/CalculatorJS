@@ -1,0 +1,46 @@
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to right, #E91E63, #473ab7);
+}
+
+.textview {
+    width: 215px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    background: #483a3a;
+    color: white;
+}
+
+.button.null {
+    width: 104px;;
+}
+
+.button.equal {
+    height: 106px;;
+}
+
+.button:focus, .textview:focus {
+    outline: none;
+}
