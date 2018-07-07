@@ -1,6 +1,6 @@
 window.onload = (()=>{
 
-    var view = document.querySelector('.textview');
+    const view = document.querySelector('.textview');
     insert = (num) =>{
         view.value = view.value + num;
     };
